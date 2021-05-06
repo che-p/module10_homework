@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.messenger {
+  background: white;
+  display: inline-block;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: 14px 14px 28px rgba(0, 0, 0, 0.25),
+    10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.btn {
+  color: black;
+  background-color: rgb(140, 216, 240);
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  margin: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input {
+  padding: 8px 15px;
+  margin: 5px 10px;
+  font-size: 16px;
+  width: 20em;
+  border: 3px solid rgb(140, 216, 240);
+  border-radius: 5px;
+}
+
+.div__out {
+  margin: 15px 10px 5px;
+  height: 20em;
+  border: 3px solid rgb(140, 216, 240);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+.mess {
+  border: 3px solid rgb(140, 216, 240);
+  border-radius: 5px;
+  font-size: 26px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.send {
+  margin-right: 50px;
+  align-self: flex-end;
+}
+
+.get {
+  margin-left: 50px;
+  align-self: flex-start;
+}
+
+.geo {
+  margin-right: 50px;
+  align-self: flex-end;
+}
